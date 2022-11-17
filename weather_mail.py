@@ -126,7 +126,7 @@ msg.attach(text_html)  # 把生成的html丢入发送的信息中
 
 sender = '1685087768@qq.com'
 user_name = '1685087768@qq.com'
-password = ''  # 这个是QQ邮箱开启smtp之后给你生成的授权码
+password = 'xxxxxxxxxxxx'  # 这个是QQ邮箱开启smtp之后给你生成的授权码
 
 smtp = smtplib.SMTP_SSL('smtp.qq.com', 465)
 smtp.login(user_name, password)
